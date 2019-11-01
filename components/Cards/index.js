@@ -28,7 +28,7 @@
 
 axios.get("https://lambda-times-backend.herokuapp.com/articles")
     .then(response => {
-        console.log(response)
+        // console.log(response)
         let articleSelector = document.querySelector(".cards-container")
         let articles = response.data.articles
         // we can't do a forEach directly with articles, but we can if we
@@ -39,7 +39,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
             // console.log(key, response.data.articles[key])
             // articles[key] would also be used for a for loop
             articles[key].forEach(card => {
-                console.log(key, card)
+                // console.log(key, card)
                 articleSelector.appendChild(Card(card))
 
             })
