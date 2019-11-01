@@ -34,11 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is an event?
 
-    An event is something that happens to an html element.
+    An event is something that happens to an html element.  A mouse click is an event
 
 3. What is an event listener?
 
-    An event listener is a callback that listens for something to happen to an html element
+    An event listener is a callback that listens for something to happen to an html element.  An event listenter lets you interact with the DOM.
 
 4. Why would we convert a NodeList into an Array?
 
