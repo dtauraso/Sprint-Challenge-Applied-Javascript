@@ -43,7 +43,6 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
                 articleSelector.appendChild(Card(card))
 
             })
-            // Oops...frogot the for loop..
 
         })
 
